@@ -89,7 +89,6 @@ conda/conda).
 
    ```
    git pull
-
    ```
 
    This will make it so that your changes are against the very latest master,

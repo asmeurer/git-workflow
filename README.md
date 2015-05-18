@@ -72,9 +72,8 @@ need to clone or fork it again.
 Before you make any changes, you should make a branch. Remember to **never
 commit to master**. The command `git status` will tell you what branch you are
 on. I recommend putting the git branch in your command prompt, so that you
-will always know what branch you are on. There are several ways to do this, if
-you Google "git branch prompt". For bash,
-[this guide](http://stackoverflow.com/a/24716445/161801) is a good one.
+will always know what branch you are on. See
+[this guide](http://stackoverflow.com/a/24716445/161801) on how to do this.
 
 It is important that you never commit to master because master will be the
 branch that you pull upstream changes from (e.g., changes from

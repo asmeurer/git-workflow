@@ -17,10 +17,10 @@ For this document, we will suppose that you want to contribute a patch to
 ## Cloning and forking the repository
 
 **Note: The steps in this section only need to be performed once per
-repository (i.e., if you contribute a second change to conda/conda, you would
+repository (e.g., if you contribute a second change to conda/conda, you would
 not need to repeat them, but if you contribute to
 [conda/conda-build](https://github.com/conda/conda-build) you will need to
-repeat them for that repository.**
+repeat them for that repository).**
 
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and
    type, in this case

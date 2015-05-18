@@ -67,3 +67,73 @@ repeat them for that repository.**
 Remember, the above three steps only need to be performed once per
 repository. Once you have cloned and forked a repository once, there is no
 need to clone or fork it again.
+
+## Making changes
+
+Before you make any changes, you should make a branch. Remember to **never
+commit to master**. The command `git status` will tell you what branch you are
+on. I recommend putting the git branch in your command prompt, so that you
+will always know what branch you are on. There are several ways to do this, if
+you Google "git branch prompt". For bash,
+[this guide](http://stackoverflow.com/a/24716445/161801) is a good one.
+
+It is important that you never commit to master because master will be the
+branch that you pull upstream changes from (e.g., changes from
+conda/conda).
+
+1. **Update master.** Before you make any changes, first checkout master
+
+   ```
+   git checkout master
+   ```
+
+   and pull in the latest changes
+
+   ```
+   git pull
+
+   ```
+
+   This will make it so that your changes are against the very latest master,
+   which will reduce the likelihood of merge conflicts due to your changes
+   conflicting with changes made by someone else.
+
+2. **Create a branch.** Once you have done this, create a new branch. You
+   should make a branch name that is short, descriptive, and unique. Some
+   examples of good branch names are `fix-install`, `docs-cleanup`, and
+   `add-travis-ci`. Some examples of bad branch names are `feature`, `fix`,
+   and `patch`. The branch name choice is not too important, so don't stress
+   over it, but it is what people will use to reference your changes if they
+   want to pull them down on their own computers to test them, so a good name
+   will make it easier for others to understand what your branch does.
+
+   To create the branch, run
+
+   ```
+   git checkout -b <branch name>
+   ```
+
+   (replace `<branch name>` with the branch name you chose). This will create a
+   new branch and check it out. You can verify this with `git status`.
+
+3. **Make your changes and commit them.** Once you have created your branch,
+   make your changes and commit them. Remember to keep your commits atomic,
+   that is, each commit should represent a single unit of change. Also,
+   remember to write helpful commit messages, so that someone can understand
+   what the commit does just from reading the message without having to read
+   the diff.
+
+4. **Push up your changes.**  Push your changes to your fork. Do this by
+   running
+
+   ```
+   git push github <branch name>
+   ```
+
+   (replace `<branch name>` with the name of the branch). If you named your
+   remote something other than `github` use that instead.
+
+   If you then go to your fork on GitHub, you should see a button to create a
+   pull request from your branch.
+
+   ![pull.png](pull.png)

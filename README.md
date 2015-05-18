@@ -154,7 +154,7 @@ conda/conda).
    color="blue">②</font> and the branch is the branch you wish to make the
    pull request from.
 
-   Enter a descriptive title in the title field font
+   Enter a descriptive title in the title field <font
    color="blue">③</font>. This is very important, as it is what will show up
    in the pull request listing and in email notifications to the people in the
    repo. Pull requests with undescriptive titles are more likely to be passed

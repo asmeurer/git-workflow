@@ -165,6 +165,8 @@ conda/conda).
    Once you are done, click the "create pull request" button <font
    color="blue">⑤</font>.
 
+   ![pull3.png](pull3.png)
+
 6. **Pushing additional changes**. Once you have created the pull request, it
    will likely be reviewed and some additional fixes will be necessary.  **Do
    not create a new pull request.** Rather, simply make more commits to your

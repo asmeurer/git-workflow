@@ -25,10 +25,10 @@ repeat them for that repository.**
 1. Clone the repository. Copy the url ① and type, in this case
 
    ```
-   git clone git@github.com:conda/conda-build.git
+   git clone git@github.com:conda/conda.git
    ```
 
    at the terminal. If you have not set up your ssh keys with GitHub, use the
-   https url ②.
+   https url by first clicking the `https` button ②.
 
    ![clone.png](clone.png)

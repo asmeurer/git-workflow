@@ -23,11 +23,11 @@ not need to repeat them, but if you contribute to
 repeat them for that repository).**
 
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and
-   type, in this case
+   type
 
    ``` git clone <clone url> ```
 
-   at the terminal (replace `<clone url>` with the url that has been copied to
+   at the terminal. Replace `<clone url>` with the url that has been copied to
    your clipboard. For conda/conda, it will be
    `git@github.com:conda/conda.git`. If you have not set up your ssh keys with
    GitHub, use the https url by first clicking the `https` button <font

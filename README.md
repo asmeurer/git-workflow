@@ -120,6 +120,10 @@ conda/conda).
    what the commit does just from reading the message without having to read
    the diff.
 
+   ```
+   git commit -a -m "Descriptive commit message saying what we changed."
+   ```
+
 4. **Push up your changes.**  Push your changes to your fork. Do this by
    running
 

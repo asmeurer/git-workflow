@@ -25,11 +25,14 @@ repeat them for that repository.**
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and type, in this case
 
    ```
-   git clone git@github.com:conda/conda.git
+   git clone <clone url>
    ```
 
-   at the terminal. If you have not set up your ssh keys with GitHub, use the
-   https url by first clicking the `https` button <font color="blue">②</font>.
+   at the terminal (replace `<clone url>` with the url that has been copied to
+   your clipboard. For conda/conda, it will be
+   `git@github.com:conda/conda.git`. If you have not set up your ssh keys with
+   GitHub, use the https url by first clicking the `https` button <font
+   color="blue">②</font>.
 
    ![clone.png](clone.png)
 
@@ -43,3 +46,24 @@ repeat them for that repository.**
 
    If you are presented with a list of organizations, click on your GitHub
    username.
+
+3. **Add your fork as a remote.** You can name this remote anything, but
+   common choices are `github` or your GitHub username. For consistency in
+   this document, we will call the remote `github`. Go to the fork of your
+   repository, in this case, https://github.com/<your username>/conda (replace
+   `<your username>` with your GitHub username), and copy the clone url as in
+   step 1. `cd` to your clone from step 1 and run
+
+   ```
+   git remote add github <fork url>
+   ```
+
+   (replace `<fork url>` with the url that was copied to your
+   clipboard). You will be able to tell it is your fork url because it will
+   have your GitHub username in it. For instance, if your username is
+   `github_user`, your fork url would be
+   `git@github.com:github_user/conda.git`.
+
+Remember, the above three steps only need to be performed once per
+repository. Once you have cloned and forked a repository once, there is no
+need to clone or fork it again.

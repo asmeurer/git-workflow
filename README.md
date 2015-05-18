@@ -121,6 +121,7 @@ conda/conda).
    the diff.
 
    ```
+   git add <file name>
    git commit -a -m "Descriptive commit message saying what we changed."
    ```
 

@@ -22,11 +22,10 @@ not need to repeat them, but if you contribute to
 [conda/conda-build](https://github.com/conda/conda-build) you will need to
 repeat them for that repository.**
 
-1. **Clone the repository.** Copy the url <font color="blue">①</font> and type, in this case
+1. **Clone the repository.** Copy the url <font color="blue">①</font> and
+   type, in this case
 
-   ```
-   git clone <clone url>
-   ```
+   ``` git clone <clone url> ```
 
    at the terminal (replace `<clone url>` with the url that has been copied to
    your clipboard. For conda/conda, it will be
@@ -134,6 +133,12 @@ conda/conda).
    remote something other than `github` use that instead.
 
    If you then go to your fork on GitHub, you should see a button to create a
-   pull request from your branch.
+   pull request from your branch. It will look something like this:
 
    ![pull.png](pull.png)
+
+   If you do not see this, select the branch from the branch popup <font
+   color="blue">①</font> and click the pull request button <font
+   color="blue">②</font>.
+
+   ![pull2.png](pull2.png)

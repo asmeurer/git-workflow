@@ -132,8 +132,9 @@ conda/conda).
    (replace `<branch name>` with the name of the branch). If you named your
    remote something other than `github` use that instead.
 
-   If you then go to your fork on GitHub, you should see a button to create a
-   pull request from your branch. It will look something like this:
+5. **Make a pull request.** If you then go to your fork on GitHub, you should
+   see a button to create a pull request from your branch. It will look
+   something like this:
 
    ![pull.png](pull.png)
 
@@ -142,3 +143,59 @@ conda/conda).
    color="blue">②</font>.
 
    ![pull2.png](pull2.png)
+
+   Once doing this, you will be presented with a page. This page will show you
+   the diff of the changes. Double check them to make sure you are making a
+   pull request against the right branch.
+
+   Things to check here are that the base fork is the upstream repo <font
+   color="blue">①</font> (in this case, conda/conda) and the branch for the
+   upstream repo is master, and that the head fork is your fork <font
+   color="blue">②</font> and the branch is the branch you wish to make the
+   pull request from.
+
+   Enter a descriptive title in the title field font
+   color="blue">③</font>. This is very important, as it is what will show up
+   in the pull request listing and in email notifications to the people in the
+   repo. Pull requests with undescriptive titles are more likely to be passed
+   by. If there is more description or discussion about the pull request than
+   what fits in the title field use the description field <font
+   color="blue">④</font>.
+
+   Once you are done, click the "create pull request" button <font
+   color="blue">⑤</font>.
+
+6. **Pushing additional changes**. Once you have created the pull request, it
+   will likely be reviewed and some additional fixes will be necessary.  **Do
+   not create a new pull request.** Rather, simply make more commits to your
+   branch and push them up as in steps 3 and 4. They will be added to the pull
+   request automatically.  Note that GitHub does not notify people when you
+   push new changes to a branch, so it is a good idea to make a comment on the
+   pull request whenever you do so to notify people that it is ready to be
+   reviewed again.
+
+Once the pull request has been reviewed successfully, someone with push access
+to the main repository will merge it in. At this point you are done. You can
+checkout master and pull as described in step 1 and your changes should be
+there.
+
+## Important points
+
+The important things to remember from this document are
+
+1. You only need to clone and fork once per repository.
+
+2. Always clone from the main repository and add your fork as a remote.
+
+3. Never commit to master. Create a branch and commit to it.
+
+4. Use `git status` often to check what branch you are on and see if you have
+   any uncommitted changes.
+
+5. Be descriptive in your branch names, commit messages, and pull request
+   title and descriptions.
+
+6. Once you have a pull request for a branch, you can push additional changes
+   to the same branch and they will be added to the pull request
+   automatically. You should never create a new pull request for the same
+   branch.

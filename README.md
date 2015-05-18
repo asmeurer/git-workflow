@@ -36,4 +36,10 @@ repeat them for that repository.**
    *Note: It is important that you clone from the repo you are contributing
    to (like conda/conda),* not *your fork of the repo.*
 
-2. Fork the repo on GitHub to your personal account.
+2. **Fork the repo on GitHub to your personal account.** Click the `Fork`
+   button on the conda/conda page.
+
+   ![fork.png](fork.png)
+
+   If you are presented with a list of organizations, click on your GitHub
+   username.

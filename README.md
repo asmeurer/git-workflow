@@ -32,3 +32,6 @@ repeat them for that repository.**
    https url by first clicking the `https` button <font color="blue">②</font>.
 
    ![clone.png](clone.png)
+
+   **Note: It is important that you clone from the repo you are contributing
+   to (like conda/conda), *not* your fork of the repo.**

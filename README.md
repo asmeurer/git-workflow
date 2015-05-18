@@ -22,13 +22,13 @@ not need to repeat them, but if you contribute to
 [conda/conda-build](https://github.com/conda/conda-build) you will need to
 repeat them for that repository.**
 
-1. Clone the repository. Copy the url ① and type, in this case
+1. Clone the repository. Copy the url <font color="blue">①</font> and type, in this case
 
    ```
    git clone git@github.com:conda/conda.git
    ```
 
    at the terminal. If you have not set up your ssh keys with GitHub, use the
-   https url by first clicking the `https` button ②.
+   https url by first clicking the `https` button <font color="blue">②</font>.
 
    ![clone.png](clone.png)

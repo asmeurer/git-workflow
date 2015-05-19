@@ -46,22 +46,21 @@ repeat them for that repository).**
    If you are presented with a list of organizations, click on your GitHub
    username.
 
-3. **Add your fork as a remote.** You can name this remote anything, but
-   common choices are `github` or your GitHub username. For consistency in
-   this document, we will call the remote `github`. Go to the fork of your
-   repository, in this case, `https://github.com/<your username>/conda` (replace
-   `<your username>` with your GitHub username), and copy the clone url as in
-   step 1. `cd` to your clone from step 1 and run
+3. **Add your fork as a remote.** This remote will be named after your github
+   username.  Go to the fork of your repository, in this case,
+   `https://github.com/<your username>/conda` (replace `<your username>` with
+   your GitHub username), and copy the clone url as in step 1. `cd` to your
+   clone from step 1 and run
 
    ```
-   git remote add github <fork url>
+   git remote add <your github username> <fork url>
    ```
 
-   (replace `<fork url>` with the url that was copied to your
-   clipboard). You will be able to tell it is your fork url because it will
-   have your GitHub username in it. For instance, if your username is
-   `github_user`, your fork url would be
-   `git@github.com:github_user/conda.git`.
+   (replace `<your github username>` with your GitHub username and `<fork
+   url>` with the url that was copied to your clipboard). You will be able to
+   tell it is your fork url because it will have your GitHub username in
+   it. For instance, if your username is `github_user`, you would run the
+   command `git remote add github_user git@github.com:github_user/conda.git`.
 
 Remember, the above three steps only need to be performed once per
 repository. Once you have cloned and forked a repository once, there is no
@@ -124,11 +123,11 @@ conda/conda).
    running
 
    ```
-   git push github <branch name>
+   git push <your github username> <branch name>
    ```
 
-   (replace `<branch name>` with the name of the branch). If you named your
-   remote something other than `github` use that instead.
+   (replace `<your github username>` with your GitHub username and `<branch
+   name>` with the name of the branch).
 
 5. **Make a pull request.** If you then go to your fork on GitHub, you should
    see a button to create a pull request from your branch. It will look

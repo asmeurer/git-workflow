@@ -119,10 +119,14 @@ conda/conda).
    what the commit does just from reading the message without having to read
    the diff.
 
+   For example, at the command line, this might look like
+
    ```
-   git add <file name>
-   git commit -m "Descriptive commit message saying what we changed."
+   git add <file names>
+   git commit
    ```
+
+   This will open an editor where you can write your commit message.
 
 4. **Push up your changes.**  Push your changes to your fork. Do this by
    running

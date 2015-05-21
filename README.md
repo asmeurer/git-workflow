@@ -198,3 +198,7 @@ The important things to remember from this document are
    to the same branch and they will be added to the pull request
    automatically. You should never create a new pull request for the same
    branch.
+
+7. Comment on the pull request when you want people to know that you have
+   pushed new changes. GitHub does not notify people of commit pushes, but it
+   does notify people of comments.

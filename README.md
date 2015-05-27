@@ -25,9 +25,9 @@ repeat them for that repository).**
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and
    type
 
-   ``` git clone <clone url> ```
+   <code>git clone <i>clone-url</i></code>
 
-   at the terminal. Replace `<clone url>` with the url that has been copied to
+   at the terminal. Replace *`clone-url`* with the url that has been copied to
    your clipboard. For conda/conda, it will be
    `git@github.com:conda/conda.git`. If you have not set up your ssh keys with
    GitHub, use the https url by first clicking the `https` button <font
@@ -48,18 +48,18 @@ repeat them for that repository).**
 
 3. **Add your fork as a remote.** This remote will be named after your github
    username.  Go to the fork of your repository, in this case,
-   `https://github.com/<your username>/conda` (replace `<your username>` with
+   <code>https://github.com/<i>your-username</i>/conda</code> (replace *`your-username`* with
    your GitHub username), and copy the clone url as in step 1. `cd` to your
    clone from step 1 and run
 
-   ```
-   git remote add <your github username> <fork url>
-   ```
+   <code>
+   git remote add <i>your-github-username</i> <i>fork-url</i>
+   </code>
 
-   (replace `<your github username>` with your GitHub username and `<fork
-   url>` with the url that was copied to your clipboard). You will be able to
-   tell it is your fork url because it will have your GitHub username in
-   it. For instance, if your username is `github_user`, you would run the
+   (replace *`your-github-username`* with your GitHub username and
+   *`fork-url`* with the url that was copied to your clipboard). You will be
+   able to tell it is your fork url because it will have your GitHub username
+   in it. For instance, if your username is `github_user`, you would run the
    command `git remote add github_user git@github.com:github_user/conda.git`.
 
 Remember, the above three steps only need to be performed once per
@@ -105,11 +105,11 @@ conda/conda).
 
    To create the branch, run
 
-   ```
-   git checkout -b <branch name>
-   ```
+   <code>
+   git checkout -b <i>branch-name</i>
+   </code>
 
-   (replace `<branch name>` with the branch name you chose). This will create a
+   (replace *`branch-name`* with the branch name you chose). This will create a
    new branch and check it out. You can verify this with `git status`.
 
 3. **Make your changes and commit them.** Once you have created your branch,
@@ -121,22 +121,21 @@ conda/conda).
 
    For example, at the command line, this might look like
 
-   ```
-   git add <file names>
+   <pre><code>git add <i>filename [filename ...]</i>
    git commit
-   ```
+   </code></pre>
 
    This will open an editor where you can write your commit message.
 
 4. **Push up your changes.**  Push your changes to your fork. Do this by
    running
 
-   ```
-   git push <your github username> <branch name>
-   ```
+   <code>
+   git push <i>your-github-username</i> <i>branch-name</i>
+   </code>
 
-   (replace `<your github username>` with your GitHub username and `<branch
-   name>` with the name of the branch).
+   (replace *`your-github-username`* with your GitHub username and
+   *`branch-name`* with the name of the branch).
 
 5. **Make a pull request.** If you then go to your fork on GitHub, you should
    see a button to create a pull request from your branch. It will look

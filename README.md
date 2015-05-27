@@ -25,9 +25,9 @@ repeat them for that repository).**
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and
    type
 
-   <code>git clone <i>clone url</i></code>
+   <code>git clone <i>clone-url</i></code>
 
-   at the terminal. Replace *`clone url`* with the url that has been copied to
+   at the terminal. Replace *`clone-url`* with the url that has been copied to
    your clipboard. For conda/conda, it will be
    `git@github.com:conda/conda.git`. If you have not set up your ssh keys with
    GitHub, use the https url by first clicking the `https` button <font
@@ -48,7 +48,7 @@ repeat them for that repository).**
 
 3. **Add your fork as a remote.** This remote will be named after your github
    username.  Go to the fork of your repository, in this case,
-   <code>https://github.com/<i>your username</i>/conda</code> (replace *`your username`* with
+   <code>https://github.com/<i>your-username</i>/conda</code> (replace *`your-username`* with
    your GitHub username), and copy the clone url as in step 1. `cd` to your
    clone from step 1 and run
 

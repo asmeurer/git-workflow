@@ -25,7 +25,7 @@ repeat them for that repository).**
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and
    type
 
-   <code>git clone <i>clone url</i></code>
+   `git clone` *`clone url`*
 
    at the terminal. Replace `<clone url>` with the url that has been copied to
    your clipboard. For conda/conda, it will be

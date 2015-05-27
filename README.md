@@ -122,7 +122,7 @@ conda/conda).
    For example, at the command line, this might look like
 
    <code>
-   git add <i>filename [filename ...]</i>
+   git add <i>filename [filename ...]</i><p>
    git commit
    </code>
 

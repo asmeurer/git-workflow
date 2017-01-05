@@ -14,10 +14,10 @@ fork private).*
 For this document, we will suppose that you want to contribute a patch to
 [sympy/sympy](https://github.com/sympy/sympy).
 
-**<p style="font-size:24px">NOTE: If you want to test out this guide without making an
+**<font size=4>NOTE: If you want to test out this guide without making an
 actual fix, please test against THIS REPO (`asmeurer/git-workflow`). Do not
 make a pull request against `sympy/sympy` unless you are making an actual
-change.</p>**
+change.</font>**
 
 ## Cloning and forking the repository
 
@@ -27,7 +27,7 @@ not need to repeat them, but if you contribute to
 [sympy/sympy-live](https://github.com/sympy/sympy-live) you will need to
 repeat them for that repository).**
 
-1. **Clone the repository.** Click the green "<t style="background-color:green;color:white">Clone or download</t>" button <font color="blue">①</font>,
+1. **Clone the repository.** Click the green "<font color="green">Clone or download</font>" button <font color="blue">①</font>,
    and copy the url <font color="blue">②</font> and type
 
    <code>git clone <i>clone-url</i></code>

@@ -12,14 +12,14 @@ you to fork private repositories that you have push access to and keeps the
 fork private).*
 
 For this document, we will suppose that you want to contribute a patch to
-[conda/conda](https://github.com/conda/conda).
+[sympy/sympy](https://github.com/sympy/sympy).
 
 ## Cloning and forking the repository
 
 **Note: The steps in this section only need to be performed once per
-repository (e.g., if you contribute a second change to conda/conda, you would
+repository (e.g., if you contribute a second change to sympy/sympy, you would
 not need to repeat them, but if you contribute to
-[conda/conda-build](https://github.com/conda/conda-build) you will need to
+[sympy/sympy-live](https://github.com/sympy/sympy-live) you will need to
 repeat them for that repository).**
 
 1. **Clone the repository.** Copy the url <font color="blue">①</font> and
@@ -28,18 +28,18 @@ repeat them for that repository).**
    <code>git clone <i>clone-url</i></code>
 
    at the terminal. Replace *`clone-url`* with the url that has been copied to
-   your clipboard. For conda/conda, it will be
-   `git@github.com:conda/conda.git`. If you have not set up your ssh keys with
+   your clipboard. For sympy/sympy, it will be
+   `git@github.com:sympy/sympy.git`. If you have not set up your ssh keys with
    GitHub, use the https url by first clicking the `https` button <font
    color="blue">②</font>.
 
    ![clone.png](clone.png)
 
    *Note: It is important that you clone from the repo you are contributing
-   to (like conda/conda),* not *your fork of the repo.*
+   to (like sympy/sympy),* not *your fork of the repo.*
 
 2. **Fork the repo on GitHub to your personal account.** Click the `Fork`
-   button on the conda/conda page.
+   button on the sympy/sympy page.
 
    ![fork.png](fork.png)
 
@@ -48,7 +48,7 @@ repeat them for that repository).**
 
 3. **Add your fork as a remote.** This remote will be named after your github
    username.  Go to the fork of your repository, in this case,
-   <code>https://github.com/<i>your-username</i>/conda</code> (replace *`your-username`* with
+   <code>https://github.com/<i>your-username</i>/sympy</code> (replace *`your-username`* with
    your GitHub username), and copy the clone url as in step 1. `cd` to your
    clone from step 1 and run
 
@@ -60,7 +60,7 @@ repeat them for that repository).**
    *`fork-url`* with the url that was copied to your clipboard). You will be
    able to tell it is your fork url because it will have your GitHub username
    in it. For instance, if your username is `github_user`, you would run the
-   command `git remote add github_user git@github.com:github_user/conda.git`.
+   command `git remote add github_user git@github.com:github_user/sympy.git`.
 
 Remember, the above three steps only need to be performed once per
 repository. Once you have cloned and forked a repository once, there is no
@@ -76,7 +76,7 @@ will always know what branch you are on. See
 
 It is important that you never commit to master because master will be the
 branch that you pull upstream changes from (e.g., changes from
-conda/conda).
+sympy/sympy).
 
 1. **Update master.** Before you make any changes, first checkout master
 
@@ -143,9 +143,10 @@ conda/conda).
 
    ![pull.png](pull.png)
 
-   If you do not see this, select the branch from the branch popup <font
-   color="blue">①</font> and click the pull request button <font
-   color="blue">②</font>.
+   If you do not see this, go to the GitHub page for your fork <font
+   color="blue">①</font>, select the branch from the branch popup <font
+   color="blue">②</font> and click the pull request button <font
+   color="blue">③</font>.
 
    ![pull2.png](pull2.png)
 
@@ -154,7 +155,7 @@ conda/conda).
    pull request against the right branch.
 
    Things to check here are that the base fork is the upstream repo <font
-   color="blue">①</font> (in this case, conda/conda) and the branch for the
+   color="blue">①</font> (in this case, sympy/sympy) and the branch for the
    upstream repo is master, and that the head fork is your fork <font
    color="blue">②</font> and the branch is the branch you wish to make the
    pull request from.

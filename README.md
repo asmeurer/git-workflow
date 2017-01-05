@@ -14,7 +14,7 @@ fork private).*
 For this document, we will suppose that you want to contribute a patch to
 [sympy/sympy](https://github.com/sympy/sympy).
 
-**<font size=4>NOTE: If you want to test out this guide without making an
+**<font size=5>NOTE: If you want to test out this guide without making an
 actual fix, please test against THIS REPO (`asmeurer/git-workflow`). Do not
 make a pull request against `sympy/sympy` unless you are making an actual
 change.</font>**

@@ -187,13 +187,14 @@ sympy/sympy).
    ![pull3.png](pull3.png)
 
 6. **Pushing additional changes**. Once you have created the pull request, it
-   will likely be reviewed and some additional fixes will be necessary.  **Do
+   will likely be reviewed and some additional fixes will be necessary. **Do
    not create a new pull request.** Rather, simply make more commits to your
    branch and push them up as in steps 3 and 4. They will be added to the pull
-   request automatically.  Note that GitHub does not notify people when you
-   push new changes to a branch, so it is a good idea to make a comment on the
-   pull request whenever you do so to notify people that it is ready to be
-   reviewed again.
+   request automatically. Note that although GitHub does notify people when
+   you push new changes to a branch, many people have these notifications
+   disabled as they can be quite noisy. So it is a good idea to make a comment
+   on the pull request whenever you do so to notify people that it is ready to
+   be reviewed again.
 
 Once the pull request has been reviewed successfully, someone with push access
 to the main repository will merge it in. At this point you are done. You can
@@ -222,5 +223,5 @@ The important things to remember from this document are
    branch.
 
 7. Comment on the pull request when you want people to know that you have
-   pushed new changes. GitHub does not notify people of commit pushes, but it
-   does notify people of comments.
+   pushed new changes. Although GitHub does notify people of commit pushes,
+   people are more likely notice your changes if you leave a comment.

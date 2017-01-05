@@ -161,13 +161,25 @@ sympy/sympy).
    color="blue">②</font> and the branch is the branch you wish to make the
    pull request from.
 
-   Enter a descriptive title in the title field <font
-   color="blue">③</font>. This is very important, as it is what will show up
-   in the pull request listing and in email notifications to the people in the
-   repo. Pull requests with undescriptive titles are more likely to be passed
-   by. If there is more description or discussion about the pull request than
+   Enter a descriptive title in the title field <font color="blue">③</font>.
+   This is very important, as it is what will show up in the pull request
+   listing and in email notifications to the people in the repo. Pull requests
+   with undescriptive titles are more likely to be passed by. If the pull
+   request fixes an issue, I recommend putting the issue number in the pull
+   request description <font color="blue">④</font>, not the title. People
+   generally do not know issues by number, so a pull request that is just
+   titled "fix for issue #1234" is more likely to be passed by, as it is
+   unclear what it does from the title.
+
+   If there is more description or discussion about the pull request than
    what fits in the title field use the description field <font
    color="blue">④</font>.
+
+   If the pull request fixes an issue, you can add "fixes #*1234*" (replace
+   *1234* with the actual issue number) in the pull request description <font
+   color="blue">④</font>.  This exact format, "fixes #*1234*" is important, as
+   it will cause GitHub to automatically close the issue when the pull request
+   is merged.
 
    Once you are done, click the "create pull request" button <font
    color="blue">⑤</font>.

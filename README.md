@@ -101,7 +101,8 @@ sympy/sympy).
    and `patch`. The branch name choice is not too important, so don't stress
    over it, but it is what people will use to reference your changes if they
    want to pull them down on their own computers to test them, so a good name
-   will make it easier for others to understand what your branch does.
+   will make it easier for others to understand what your branch does. In this
+   example, the branch name is `fix-install`.
 
    To create the branch, run
 

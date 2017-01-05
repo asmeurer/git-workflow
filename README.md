@@ -22,9 +22,9 @@ not need to repeat them, but if you contribute to
 [sympy/sympy-live](https://github.com/sympy/sympy-live) you will need to
 repeat them for that repository).**
 
-1. **Clone the repository.** Click the green "<font color="green">Clone or
-   download</font>" button <font color="blue">①</font>, and copy the url <font
-   color="blue">②</font> and type
+1. **Clone the repository.** Click the green "<font background-color="green"
+   color="white">Clone or download</font>" button <font color="blue">①</font>,
+   and copy the url <font color="blue">②</font> and type
 
    <code>git clone <i>clone-url</i></code>
 

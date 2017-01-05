@@ -22,8 +22,9 @@ not need to repeat them, but if you contribute to
 [sympy/sympy-live](https://github.com/sympy/sympy-live) you will need to
 repeat them for that repository).**
 
-1. **Clone the repository.** Copy the url <font color="blue">①</font> and
-   type
+1. **Clone the repository.** Click the green "<font color="green">Clone or
+   download</font>" button <font color="blue">①</font>, and copy the url <font
+   color="blue">②</font> and type
 
    <code>git clone <i>clone-url</i></code>
 
@@ -31,7 +32,7 @@ repeat them for that repository).**
    your clipboard. For sympy/sympy, it will be
    `git@github.com:sympy/sympy.git`. If you have not set up your ssh keys with
    GitHub, use the https url by first clicking the `https` button <font
-   color="blue">②</font>.
+   color="blue">③</font>.
 
    ![clone.png](clone.png)
 

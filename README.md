@@ -1,8 +1,8 @@
 # Git workflow
 
 This document describes the git workflow that should be used when contributing
-to open source projects. It assumes a very basic understanding of git
-(commits, branches, etc.) using the command line.
+to open source projects on GitHub. It assumes a very basic understanding of
+git (commits, branches, etc.) using the command line.
 
 *Note: This workflow is designed for open source (i.e., public)
 repositories. The workflow for private repositories may be slightly different,

@@ -14,6 +14,11 @@ fork private).*
 For this document, we will suppose that you want to contribute a patch to
 [sympy/sympy](https://github.com/sympy/sympy).
 
+<font font-size=24>**NOTE: If you want to test out this guide without making an
+actual fix, please test against THIS REPO (`asmeurer/git-workflow`). Do not
+make a pull request against `sympy/sympy` unless you are making an actual
+change.**</font>
+
 ## Cloning and forking the repository
 
 **Note: The steps in this section only need to be performed once per

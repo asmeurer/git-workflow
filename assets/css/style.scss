@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+// Reduce the height of the header
 .page-header {
     padding: 1rem 1rem;
+}
+
+// Remove the "view on GitHub" button
+.btn {
+    padding: 0rem 0rem;
+    visibility: hidden;
 }

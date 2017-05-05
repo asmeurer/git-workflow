@@ -180,9 +180,9 @@ sympy/sympy).
    what fits in the title field use the description field <font
    color="blue">④</font>.
 
-   If the pull request fixes an issue, you can add "fixes #*1234*" (replace
-   *1234* with the actual issue number) in the pull request description <font
-   color="blue">④</font>.  This exact format, "fixes #*1234*" is important, as
+   If the pull request fixes an issue, you can add "fixes #**1234**" (replace
+   **1234** with the actual issue number) in the pull request description <font
+   color="blue">④</font>.  This exact format, "fixes #**1234**" is important, as
    it will cause GitHub to automatically close the issue when the pull request
    is merged.
 

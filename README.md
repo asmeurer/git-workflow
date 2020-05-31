@@ -230,3 +230,5 @@ The important things to remember from this document are
 7. Comment on the pull request when you want people to know that you have
    pushed new changes. Although GitHub does notify people of commit pushes,
    people are more likely notice your changes if you leave a comment.
+
+8. feel free to give feedbacks.

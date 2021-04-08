@@ -1,5 +1,7 @@
 # Git workflow
 
+Here is some random text I'd like to commit.
+
 This document describes the git workflow that should be used when contributing
 to open source projects on GitHub. It assumes a very basic understanding of
 git (commits, branches, etc.) using the command line.
